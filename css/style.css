@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+
+}
+.font-miama {
+    font-family: 'Miama';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Miama'), url('../fonts/Miama.woff') format('woff');
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* mixed style */
+.bg-color{
+    background-color: ;
+}
+.brand{
+    font-size: 36px;
+    font-weight: 800;
+    color: #E6533C;
+    font-style: italic;
+}
+.brand-title{
+    font-size: 78px;
+    font-weight: 900;
+    color: #E6533C;
+    font-style: italic;
+}
+.brand-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* nav styles */
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav-left{
+    
+}
+.nav-right{
+    border: 1px solid #FFFFFF1A;
+    box-sizing: border-box;
+    border-radius: 39px;
+}
+.nav-btn-pro{
+    background: #E6533C;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.nav-btn{
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    margin: 0px 10px;
+}
+
+/* hero section style */
+.hero-section{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left{
+    width: 50%;
+}
+.hero-right{
+    width: 50%;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.hero-right > img{
+    width: 100%;
+}
