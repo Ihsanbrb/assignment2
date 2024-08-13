@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -7,14 +8,14 @@
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
-
 }
-.font-miama {
-    font-family: 'Miama';
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
     font-style: normal;
-    font-weight: normal;
-    src: local('Miama'), url('../fonts/Miama.woff') format('woff');
-    }
+  }
 
 *{
     margin: 0;
@@ -23,7 +24,7 @@
 
 /* mixed style */
 .bg-color{
-    background-color: ;
+    background: black;
 }
 .brand{
     font-size: 36px;
@@ -34,12 +35,33 @@
 .brand-title{
     font-size: 78px;
     font-weight: 900;
-    color: #E6533C;
-    font-style: italic;
+    color: white;
 }
 .brand-paragraph{
     font-size: 16px;
     font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+}
+.btn-primary{
+    background-color: #E6533C;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 42px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-secendary{
+    background-color: transparent;
+    padding: 16px 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 42px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 14px;
 }
 
 /* nav styles */
@@ -49,29 +71,38 @@
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
+    padding-top: 30px;
 }
 .nav-left{
     
 }
 .nav-right{
-    border: 1px solid #FFFFFF1A;
+    padding: 3px;
+    border: 1px solid rgb(116, 110, 110);
     box-sizing: border-box;
     border-radius: 39px;
 }
-.nav-btn-pro{
+.nav-btn-frist{
     background: #E6533C;
     border: none;
     color: white;
     font-size: 18px;
     padding: 5px 15px;
     border-radius: 15px;
-    margin-right: 10px;
 }
 .nav-btn{
     background: transparent;
     border: none;
     font-size: 18px;
-    margin: 0px 10px;
+    color: white;
+    margin: 0 47px;
+}
+.nav-btn-last{
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
 }
 
 /* hero section style */
@@ -79,18 +110,55 @@
     display: flex;
     max-width: 1140px;
     margin: 0 auto;
-    justify-content: space-between;
     align-items: center;
+    margin-top: 32px;
+    position: relative;
 }
 .hero-left{
     width: 50%;
 }
 .hero-right{
     width: 50%;
-    justify-content: space-around;
-    align-content: center;
-
+    border: 1px solid white;
 }
 .hero-right > img{
     width: 100%;
+    position: relative;
+    left: 50px;
 }
+
+.img-top-left, .img-top-right{
+    box-sizing: border-box;
+    width: 200px;
+    height: 95px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+}
+.img-top-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    bottom: 50px;
+    right: 410px;
+}
+.img-top-right{
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+
+.vdo-tuto h2, .img-top-right > h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+.vdo-tuto p, .img-top-right > p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+}
+
