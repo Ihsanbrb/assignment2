@@ -21,9 +21,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    overflow-x: hidden;
-}
 
 /* mixed style */
 .bg-color{
@@ -125,7 +122,7 @@ body{
 }
 .hero-right{
     width: 50%;
-    /* margin-left: 150px; */
+    margin-left: 150px;
 }
 .hero-right > img{
     width: 100%;
@@ -147,13 +144,13 @@ body{
     gap: 15px;
     position: absolute;
     bottom: 50px;
-    right: 370px;
+    right: 400px;
 }
 .img-top-right{
     padding-left: 20px;
     position: absolute;
     top: 130px;
-    right: 30px;
+    right: 50px;
 }
 
 .vdo-tuto h2, .img-top-right > h2{
@@ -242,7 +239,7 @@ body{
 .bmi-calculator{
     max-width: 1140px;
     margin: 0 auto;
-    margin-right: -50px;
+    margin-right: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -297,26 +294,18 @@ input[type="submit"]{
     font-size: 18px;
 }
 
-.input-box {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-}
 .half-width {
-    flex: 1;
     padding: 10px;
     margin-right: 10px;
     font-size: 16px;
-    box-sizing: border-box;
+
 }
-.half-width:last-child {
-    margin-right: 0;
-}
+
 .full-width {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     font-size: 16px;
-    box-sizing: border-box;
+
 }
 
 /* meet our team style */
