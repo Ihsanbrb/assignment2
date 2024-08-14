@@ -78,7 +78,7 @@
 }
 .nav-right{
     padding: 3px;
-    border: 1px solid rgb(116, 110, 110);
+    border: 1px solid rgba(59, 58, 58, 0.432);
     box-sizing: border-box;
     border-radius: 39px;
 }
@@ -89,6 +89,7 @@
     font-size: 18px;
     padding: 5px 15px;
     border-radius: 15px;
+    margin-right: 47px;
 }
 .nav-btn{
     background: transparent;
@@ -102,7 +103,8 @@
     border: none;
     font-size: 18px;
     color: white;
-    margin-right: 10px;
+    margin-left: 47px;
+    margin-right: 20px;
 }
 
 /* hero section style */
@@ -116,15 +118,14 @@
 }
 .hero-left{
     width: 50%;
+    margin-right: 100px;
 }
 .hero-right{
     width: 50%;
-    border: 1px solid white;
+    margin-left: 150px;
 }
 .hero-right > img{
     width: 100%;
-    position: relative;
-    left: 50px;
 }
 
 .img-top-left, .img-top-right{
@@ -143,12 +144,12 @@
     gap: 15px;
     position: absolute;
     bottom: 50px;
-    right: 410px;
+    right: 370px;
 }
 .img-top-right{
     position: absolute;
-    top: 150px;
-    right: 100px;
+    top: 130px;
+    right: 30px;
 }
 
 .vdo-tuto h2, .img-top-right > h2{
@@ -162,3 +163,55 @@
     font-weight: 400;
 }
 
+
+/* change your habit style */
+.chang-habit{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.content-info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-box{
+    display: flex;
+    justify-content: space-around;
+}
+.content-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.content-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.content-content{
+    width: 230px;
+    color: white;
+    text-align: center;
+}
+.content-content > img{
+    width: 100%;
+    border-radius: 350px;
+}
+.content-content > h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.content-content > p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* run an extra styel */
+.run-content{
+    display: flex;
+}
