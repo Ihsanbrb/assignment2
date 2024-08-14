@@ -21,6 +21,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 
 /* mixed style */
 .bg-color{
@@ -118,11 +121,11 @@
 }
 .hero-left{
     width: 50%;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 .hero-right{
     width: 50%;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 .hero-right > img{
     width: 100%;
