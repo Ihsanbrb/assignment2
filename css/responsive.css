@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
-    /* main{
+    main{
         padding: 0px 30px;
-    } */
+    }
     .nav-main{
         padding: 50px 30px;
     }
@@ -92,5 +92,39 @@
     .bmi-bg-color{
         background: rgb(34, 34, 34);
     }
-
+    .bmi-table-form{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .bmi-left{
+        width: 100%;
+    }
+    .bmi-right{
+        width: 100%;
+    }
+    .bmi-title{
+        margin-bottom: 20px;
+    }
+    table{
+        width: 80%;
+    }
+    .full-width {
+        width: 84%;
+    }
+    input[type="submit"]{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .meet-team-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-container{
+        flex-direction: column;
+        padding: 30px;
+        gap: 25px;
+    }
+    .brand{
+        font-size: 70px;
+    }
 }

@@ -365,11 +365,11 @@ footer{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .footer-link{
     color: white;
+    font-size: 20px;
 }
 .footer-link ul li{
     display: block;
