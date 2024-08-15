@@ -197,17 +197,20 @@
     margin-bottom: 30px;
 }
 .content-content{
-    width: 230px;
+    width: 100%;
     color: white;
     text-align: center;
 }
 .content-content > img{
-    width: 100%;
+    width: 80%;
+    border: 5px solid rgb(56, 50, 50);
     border-radius: 350px;
 }
 .content-content > h3{
     font-size: 18px;
     font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .content-content > p{
     font-size: 14px;
