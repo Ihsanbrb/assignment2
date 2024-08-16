@@ -25,6 +25,7 @@
     .hero-btn{
         display: flex;
         width: 100%;
+        align-items: center;
         text-align: center;
     }
     .hero-right{
@@ -152,6 +153,8 @@
         padding: 30px;
         gap: 25px;
     }
+
+    /* mixed */
     .brand{
         font-size: 50px;
     }
@@ -161,16 +164,26 @@
     .content-title{
         font-size: 36px;
     }
+
+    /* button style */
     .btn-primary{
-        width: 45%;
+        width: 50%;
+        padding: 8px 10px;
+        margin-top: 22px;
     }
     .btn-secendary{
-        width: 45%;
+        width: 50%;
+        padding: 8px 10px;
+        white-space: nowrap;
 
     }
+
+    /* run an extra */
     .run-content-btn{
         width: 100%;
     }
+
+    /* meet our team*/
     .meet-team-img{
         height: 350px;
     }
