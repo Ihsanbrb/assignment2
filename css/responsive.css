@@ -23,6 +23,7 @@
         width: 100%;
     }
     .hero-btn{
+        display: flex;
         width: 100%;
         text-align: center;
     }
@@ -35,17 +36,39 @@
         width: 100%;
     }
     .img-top-left{
+        width: 150px;
+        height: 70px;
+        padding: 10px 10px;
         position: absolute;
-        bottom: 250px;
+        bottom: 150px;
         right: 150px;
     }
     .img-top-right{
+        width: 150px;
+        height: 70px;
+        padding: 10px 10px;
+        justify-content: center;
+        align-items: center;
         position: absolute;
-        top: 50px;
-        left: 200px;
+        top: 40px;
+        left: 150px;
     }
+    .vdo-tuto h2, .img-top-right > h2{
+        color: white;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .vdo-tuto p, .img-top-right > p{
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 12px;
+        font-weight: 400;
+    }
+
     .chang-habit{
-        padding: 0px 40px;
+        padding-top: 10px;
+    }
+    .content-title{
+        font-size: 50px;
     }
     .content-description{
         font-size: 20px;
@@ -108,7 +131,10 @@
         margin-bottom: 20px;
     }
     table{
-        width: 80%;
+        width: 100%;
+    }
+    .half-width{
+        width: 36%;
     }
     .full-width {
         width: 84%;
@@ -127,22 +153,63 @@
         gap: 25px;
     }
     .brand{
-        font-size: 70px;
+        font-size: 50px;
+    }
+    .brand-title{
+        font-size: 36px;
     }
     .content-title{
-        font-size: 32px;
+        font-size: 36px;
     }
     .btn-primary{
-        width: 48%;
+        width: 45%;
     }
     .btn-secendary{
-        width: 48%;
+        width: 45%;
+
     }
     .run-content-btn{
         width: 100%;
     }
     .meet-team-img{
-        height: 450px;
+        height: 350px;
     }
+
+    /* pricing plan*/
+    .plan-container{
+
+    }
+    .plan-box{
+        flex-direction: column;
+    }
+    .plan-content{
+        width: 100%;
+        color: white;
+        text-align: center;
+        border: 2px solid rgb(83, 73, 73);
+        padding: 0;
+    }
+    .plan-title{
+        font-size: 36px;
+        color: #E6533C;
+    }
+    .plan-price{
+        font-size: 22px;
+        color: aqua;
+        margin-bottom: 20px;
+    }
+    .plan-list{
+        list-style: none;
+    }
+    .plan-btn{
+        background-color: #E6533C;
+        border: none;
+        border-radius: 42px;
+        padding: 14px 42px;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
 
 }
